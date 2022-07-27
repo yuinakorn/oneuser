@@ -68,7 +68,7 @@ class UserBase(BaseModel):
 class UserDisplayBase(BaseModel):
     id: int
     username: str
-    # cid: str
+    cid: str
     # firstname: str
     # lastname: Optional[str] = None
     officename: Optional[str] = None
